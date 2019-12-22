@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Line } from "react-chartjs-2";
+import 'chartjs-plugin-lineheight-annotation';
 
 export default class App extends Component {
   constructor(props) {
@@ -54,7 +55,11 @@ export default class App extends Component {
         <h3> Sample of a chart </h3>
           <Line
             options={{
-              responsive: true
+              responsive: true,
+              lineHeightAnnotation: {
+                always: false,
+                hover: true,
+              }
             }}
             data={this.getChartData}
           />

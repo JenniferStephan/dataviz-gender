@@ -2519,7 +2519,7 @@ chardet@^0.7.0:
   resolved "https://registry.yarnpkg.com/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
   integrity sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==
 
-chart.js@^2.9.3:
+chart.js@^2.7.3, chart.js@^2.9.3:
   version "2.9.3"
   resolved "https://registry.yarnpkg.com/chart.js/-/chart.js-2.9.3.tgz#ae3884114dafd381bc600f5b35a189138aac1ef7"
   integrity sha512-+2jlOobSk52c1VU6fzkh3UwqHMdSlgH1xFv9FKMqHiNCpXsGPQa/+81AFa+i3jZ253Mq9aAycPwDjnn1XbRNNw==
@@ -2541,6 +2541,13 @@ chartjs-color@^2.1.0:
   dependencies:
     chartjs-color-string "^0.6.0"
     color-convert "^1.9.3"
+
+chartjs-plugin-lineheight-annotation@^0.3.5:
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/chartjs-plugin-lineheight-annotation/-/chartjs-plugin-lineheight-annotation-0.3.5.tgz#6e9a64cdb6e840f4fc946ef17b1de336371b8375"
+  integrity sha512-YUGa7b63eEwYSQB7QTb6J+xaZKZdPRdRESr2U9NB+e6g5PKw/HMeDbv9VR8dS2DNfuGmpOgrmnUuBDRIwUC+AA==
+  dependencies:
+    chart.js "^2.7.3"
 
 chokidar@^2.0.2, chokidar@^2.0.4, chokidar@^2.1.8:
   version "2.1.8"
