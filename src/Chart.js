@@ -2,23 +2,26 @@ import React, { Component } from 'react';
 import { Line } from "react-chartjs-2";
 import 'chartjs-plugin-lineheight-annotation';
 
-export default class App extends Component {
+export default class Chart extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
       data: {
-        labels: ["1", "2", "3", "4", "5", "6", "7"],
+        labels: ["1945", "1946", "1951", "1956", "1958",
+        "1962", "1967", "1968", "1973", "1978",
+        "1981", "1986", "1988", "1993", "1997", "2002", "2007",
+        "2012", "2017"],
         datasets: [
           {
-            label: "Video",
-            backgroundColor: "rgba(24, 24, 24, 0.8)",
-            data: [1, 3, 4, 56, 57, 67, 80]
+            label: "Nombre de femmes députées",
+            backgroundColor: "rgb(236, 112, 127)",
+            data: [33, 30, 22, 19, 8, 8, 11, 10, 12, 21, 36, 34, 33, 35, 63, 71, 107, 155, 224]
           },
           {
-            label: "Audio",
-            backgroundColor: "rgba(255, 0, 255, 0.8)",
-            data: [7, 23, 9, 2, 19, 45, 25]
+            label: "Nombre total de députés",
+            backgroundColor: "rgb(97, 123, 227)",
+            data: [586, 586, 627, 627, 579, 482, 487, 487, 490, 491, 491, 577, 577, 577, 577, 577, 577, 577, 577]
           }
         ]
       }
@@ -38,10 +41,10 @@ export default class App extends Component {
   getChartData = canvas => {
     const data = this.state.data;
     if (data.datasets) {
-      let colors = ["rgba(24, 24, 24, 0.8)", "rgba(255, 0, 255, 0.8)"];
+      let colors = ["rgb(97, 123, 227)", "rgb(236, 112, 127)"];
       data.datasets.forEach((set, i) => {
-        set.backgroundColor = this.setGradientColor(canvas, colors[i]);
-        set.borderColor = colors[i];
+        // set.backgroundColor = this.setGradientColor(canvas, colors[i]);
+        set.borderColor = "grey";
         set.borderWidth = 2;
       });
     }
@@ -51,8 +54,8 @@ export default class App extends Component {
 
   render() {
     return (
-      <div style={{position: "relative", width: 800, height: 750}}>
-        <h3> Sample of a chart </h3>
+      <div style={{position: "relative", width: 800, height: 470}}>
+        <h3> Représentation des femmes parmi les députés </h3>
           <Line
             options={{
               responsive: true,
@@ -67,8 +70,3 @@ export default class App extends Component {
     )
   }
 }
-
-
-
-
-

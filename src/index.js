@@ -1,5 +1,17 @@
 import React from 'react';
 import { render } from 'react-dom';
-import App from './App';
+import Chart from './Chart';
+import ChartSenat from './ChartSenat';
+import ChartAcademiefrancaise from './ChartAcademiefrancaise';
+import ChartAutrices from './ChartAutrices';
 
-render(<App />, document.getElementById("root"));
+render(<Chart />, document.getElementById("root2"));
+
+render(<ChartSenat />, document.getElementById("root3"));
+
+render(<ChartAcademiefrancaise />, document.getElementById("root4"));
+
+
+
+
+
