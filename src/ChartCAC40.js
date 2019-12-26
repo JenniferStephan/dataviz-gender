@@ -23,7 +23,7 @@ export default class ChartCAC40 extends Component {
               }
               ]
             }}
-            height={90}
+            height={50}
           />
         </div>
       )
