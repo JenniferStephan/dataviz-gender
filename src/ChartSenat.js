@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Line } from "react-chartjs-2";
 import 'chartjs-plugin-lineheight-annotation';
 
-export default class ChartSenat extends Component {
+export default class ChartAcademiefrancaise extends Component {
   constructor(props) {
     super(props);
 
@@ -68,4 +68,3 @@ export default class ChartSenat extends Component {
     )
   }
 }
-
