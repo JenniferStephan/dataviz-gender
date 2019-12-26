@@ -7,6 +7,7 @@ import ChartAutrices from './ChartAutrices';
 import ChartCAC40 from './ChartCAC40';
 
 
+
 render(<Chart />, document.getElementById("root2"));
 
 render(<ChartSenat />, document.getElementById("root3"));
