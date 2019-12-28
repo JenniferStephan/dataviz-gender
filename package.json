@@ -2,6 +2,8 @@
   "name": "data-viz-gender",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "12.7.0",
   "dependencies": {
     "@babel/runtime": "^7.7.7",
     "@testing-library/jest-dom": "^4.2.4",
