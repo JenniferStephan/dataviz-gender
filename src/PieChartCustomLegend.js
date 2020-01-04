@@ -85,7 +85,7 @@ constructor(props) {
     const { legend } = this.state;
 
     return (
-      <div style={{position: "relative"}}>
+      <div style={{}}>
          <Pie
           height={this.props.height}
           ref={el => (this.chart = el )}

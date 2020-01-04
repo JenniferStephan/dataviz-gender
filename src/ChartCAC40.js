@@ -6,7 +6,7 @@ export default class ChartCAC40 extends Component {
     render() {
     return (
         <div>
-          <h1> Représentation des femmes à la présidence des entreprises du CAC40 </h1>
+          <h5> Représentation des femmes à la présidence des entreprises du CAC40 </h5>
           <PieChartCustomLegend
             data={{
               labels: [
@@ -15,7 +15,7 @@ export default class ChartCAC40 extends Component {
               datasets: [
               {
                 Label: "Représentation des femmes à la présidence des entreprises du CAC40",
-                data: [39,1],
+                data: [38,2],
                 backgroundColor: [
                 "#D6E5FA",
                 "#FDF6FB",

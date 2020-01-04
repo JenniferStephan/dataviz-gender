@@ -51,8 +51,8 @@ export default class ChartAcademiefrancaise extends Component {
 
   render() {
     return (
-      <div style={{position: "relative", width: 800, height: 470}}>
-        <h3> Représentation des femmes à l Academie francaise </h3>
+      <div style={{ width: 600, height: 270}}>
+        <h5> Représentation des femmes à l Academie francaise </h5>
           <Line
             options={{
               responsive: true,

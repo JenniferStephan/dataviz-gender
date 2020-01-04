@@ -14,21 +14,21 @@ import  ButtonInfo from './ButtonInfo';
 
 
 
-render(<Chart />, document.getElementById("root2"));
+render(<Chart />, document.getElementById("assemble"));
 
-render(<ChartSenat />, document.getElementById("root3"));
+render(<ChartSenat />, document.getElementById("senat"));
 
-render(<ChartAcademiefrancaise />, document.getElementById("root4"));
+render(<ChartAcademiefrancaise />, document.getElementById("academie"));
 
-render(<ChartCAC40 />, document.getElementById("root5"));
+render(<ChartCAC40 />, document.getElementById("cac40"));
 
-render(<ChartAutrices />, document.getElementById("chartautrices"));
+render(<ChartAutrices />, document.getElementById("autrices"));
 
-render(<ChartAuteurs />, document.getElementById("root7"));
+render(<ChartAuteurs />, document.getElementById("auteurs"));
 
-render(<ChartBac />, document.getElementById("root8"));
+render(<ChartBac />, document.getElementById("bac"));
 
-render(<ChartCabMin />, document.getElementById("root9"));
+render(<ChartCabMin />, document.getElementById("cab"));
 
 render(<ButtonInfo />, document.getElementById('app'));
 

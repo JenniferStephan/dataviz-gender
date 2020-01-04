@@ -20,8 +20,8 @@ const data = {
 export default class ChartAutrices extends Component {
   render() {
     return (
-      <div style={{position: "relative", width: 700, height: 450}}>
-        <h3>Occurence de l autrice dans les annales de bac entre 2002 et 2008 </h3>
+      <div style={{width: 400, height: 350}}>
+        <h5>Occurence de l autrice dans les annales de bac entre 2002 et 2008 </h5>
         <HorizontalBar
         data={data}
 

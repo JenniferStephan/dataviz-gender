@@ -31,8 +31,8 @@ const data = {
 export default class ChartCabMin extends Component {
   render() {
     return (
-      <div style={{position: "relative", width: 900, height: 500}}>
-        <h2>Radar Example</h2>
+      <div style={{width: 800, height: 400}}>
+        <h5>Part de femmes dans les cabinets ministériels en 2019</h5>
         <Radar data={data}
         options={{
                 scale: {

@@ -54,8 +54,8 @@ export default class Chart extends Component {
 
   render() {
     return (
-      <div style={{position: "relative", width: 800, height: 470}}>
-        <h3> Représentation des femmes parmi les députés </h3>
+      <div style={{ width: 600, height: 270}}>
+        <h5> Représentation des femmes parmi les députés </h5>
           <Line
             options={{
               responsive: true,

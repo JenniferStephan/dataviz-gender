@@ -28,8 +28,8 @@ const data = {
 export default class ChartBac extends Component {
   render() {
       return (
-        <div style={{position: "relative", width: 800, height: 550}}>
-          <h2>Occurrence annales Bac</h2>
+        <div style={{width: 500, height: 350}}>
+          <h5>Occurrence annales Bac</h5>
           <Bar
             data={data}
             options={{
